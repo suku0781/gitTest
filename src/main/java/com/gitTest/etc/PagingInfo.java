@@ -1,4 +1,4 @@
-package com.jspminiproj.etc;
+package com.gitTest.etc;
 
 public class PagingInfo {
 	private int totalPostCnt; // 전체 게시판 글의 갯수

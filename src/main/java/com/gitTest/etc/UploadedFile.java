@@ -1,4 +1,4 @@
-package com.jspminiproj.etc;
+package com.gitTest.etc;
 
 public class UploadedFile {
 	private String originalFileName;
