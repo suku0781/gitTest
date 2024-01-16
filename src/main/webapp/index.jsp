@@ -11,7 +11,7 @@
 <body>
 <jsp:include page="header.jsp"></jsp:include>
 	<div class="container">
-		<h1>index.jsp</h1>
+		<h1 style="text-shadow:2px 2px 2px coral">index.jsp</h1>
 		<div>${loginUser }</div>
 	</div>
 <jsp:include page="footer.jsp"></jsp:include>	
