@@ -11,7 +11,7 @@ uri="http://java.sun.com/jsp/jstl/fmt" %>
   <body>
     <jsp:include page="header.jsp"></jsp:include>
     <div class="container">
-      <h1 style="color: pink; background-color: red;">index.jsp</h1>
+      <h1 style="color: red; background-color: red;">index.jsp</h1>
       <div>${loginUser }</div>
     </div>
     <jsp:include page="footer.jsp"></jsp:include>
