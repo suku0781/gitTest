@@ -1,4 +1,4 @@
-package com.jspminiproj.vo;
+package com.gitTest.vo;
 
 import java.sql.Date;
 
