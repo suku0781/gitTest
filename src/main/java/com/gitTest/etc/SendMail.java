@@ -1,4 +1,4 @@
-package com.jspminiproj.etc;
+package com.gitTest.etc;
 
 import java.util.Properties;
 
@@ -17,9 +17,9 @@ public class SendMail {
 		// SMTP (Simple Mail Transfer Protocol) : 메일 전송 통신규약
 		Properties props = new Properties();
 		
-		String subject = "jspminiproj.com에서 보낸 이메일 인증번호입니다";
-		String message = "<h1>jspminiproj.com</h1>" + "<p>인증코드 : " + code +"를 입력하시고 회원가입을 완료하세요.</p>" 
-				+ "<div><a href='http://localhost:8082/JSPMiniProject'>홈페이지로 이동</a></div>";
+		String subject = "gitTest.com에서 보낸 이메일 인증번호입니다";
+		String message = "<h1>gitTest.com</h1>" + "<p>인증코드 : " + code +"를 입력하시고 회원가입을 완료하세요.</p>"
+				+ "<div><a href='http://localhost:8082/gitTestect'>홈페이지로 이동</a></div>";
 		
 		// gmail서버에 따르는 SMTP환경 설정
 		props.put("mail.smtp.starttls.required",  "true"); // 메일 서버 환경 설정 시작
