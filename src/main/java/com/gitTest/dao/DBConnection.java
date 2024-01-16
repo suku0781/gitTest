@@ -26,7 +26,7 @@ public class DBConnection {
 	public Connection dbConnect() throws NamingException, SQLException {
 		Context initContext = new InitialContext();
 		Context envContext  = (Context)initContext.lookup("java:/comp/env");
-		DataSource ds = (DataSource)envContext.lookup("mySql");
+		DataSource ds = (DataSource)envContext.lookup("jdbc/mySqlMini");
 		Connection conn = ds.getConnection();
 		System.out.println(conn.toString());
 		
