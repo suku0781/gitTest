@@ -5,7 +5,7 @@ import com.gitTest.service.board.DeleteBoardService;
 import com.gitTest.service.board.GetBoardByNoService;
 import com.gitTest.service.board.GetEntireBoardService;
 import com.gitTest.service.board.ReplyBoardService;
-import com.gitTest.service.board.WrtieBoardService;
+import com.gitTest.service.board.WriteBoardService;
 
 public class BoardFactory {
 	private boolean isRedirect; //  redicrect를 할 것인지 말것인지 
@@ -46,7 +46,7 @@ public class BoardFactory {
 		if (command.equals("/board/listAll.bo")) {
 			service = new GetEntireBoardService();
 		} else if (command.equals("/board/writeBoard.bo")) {
-			service = new WrtieBoardService();
+			service = new WriteBoardService();
 		} else if (command.equals("/board/viewBoard.bo")) {
 			service = new GetBoardByNoService();
 		} else if (command.equals("/board/delBoard.bo")) {

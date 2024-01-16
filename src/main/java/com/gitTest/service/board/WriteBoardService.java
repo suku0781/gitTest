@@ -24,7 +24,7 @@ import com.gitTest.etc.UploadedFile;
 import com.gitTest.service.BoardService;
 import com.gitTest.vo.Board;
 
-public class WrtieBoardService implements BoardService {
+public class WriteBoardService implements BoardService {
 
 	private static final int MEMORY_THRESHOLD = 1024 * 1024 * 5;  // 하나의 파일블럭의 버퍼 사이즈 5MB
 	private static final int MAX_FILE_SIZE = 1024 * 1024 * 10; // 최대 파일 사이즈 10MB

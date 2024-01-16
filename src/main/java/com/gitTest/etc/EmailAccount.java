@@ -1,4 +1,4 @@
-package com.jspminiproj.etc;
+package com.gitTest.etc;
 
 public class EmailAccount {
 	// 구글 이메일과 비밀번호
